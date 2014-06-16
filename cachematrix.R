@@ -9,12 +9,12 @@ makeCacheMatrix <- function(x = matrix()) {
         cachedInverse <<- NULL
     }
     
-    #Gets the matrix whose inverse is cached right now
+    #Gets the matrix whose inverse is cached presently
     getData <- function(){
         x
     }
     
-    #Setter function for the inverse. Used for updation, if matrix changes
+    #Setter function for the inverse matrix. 
     setInverse <- function(newInverse){
         cachedInverse <<- newInverse
     }
